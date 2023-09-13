@@ -1,0 +1,15 @@
+/*
+ * Define your custom CSS Styles here.
+ */
+ :root {
+   --color-gray-dark: #38464D!important;
+   --color-gray-dark-alt: #4C606A!important;
+   --color-gray-normal: #607681!important;
+
+   --color-green: #4A9940!important;
+   --color-orange: #E35726!important;
+   --color-blue: #535EAA!important;
+   --color-marine: #278489!important;
+   --color-red: #D74A39!important;
+   --color-brand: #38464D!important;
+}
