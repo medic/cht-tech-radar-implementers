@@ -10,20 +10,20 @@
         "headline": "Introduction",
         "values": [
           "Technology is moving fast and new technologies and innovations appear continuously.",
-          "It's essential for a development toolkit such as the CHT to constantly improve and keep track with the latest useful innovations. It is important to openly look for innovations and new technologies and to question established technologies and methods every now and then.",
+          "It's essential for a development toolkit such as the Community Health Toolkit to constantly improve and keep track with the latest useful innovations. It is important to openly look for innovations and new technologies and to question established technologies and methods every now and then.",
           "But, it is also important to wisely choose which technologies to use in our daily work and in the different projects we are carrying out. As we all know: There is no silver bullet."
         ]
       },
       {
         "headline": "What is the Technology Radar",
         "values": [
-          "The Tech Radar is an overview of different technologies - from languages, frameworks, tools and techniques to platforms - that we consider \"new or mentionable\". The radar therefore doesn't provide an overview of all established technologies - but it focuses on items that have recently gained in importance or changed. Items that have been on the radar in previous versions are not listed on the homepage, but they are still available in the complete overview and in the search."
+          "The Tech Radar is an overview of different technologies - from Data Use, App Building, Deployment Management to CHT App Features - that we consider \"new or mentionable\". The radar therefore doesn't provide an overview of all established technologies - but it focuses on items that have recently gained in importance or changed. Items that have been on the radar in previous versions are not listed on the homepage, but they are still available in the complete overview and in the search."
         ]
       },
       {
         "headline": "How it is created",
         "values": [
-          "The items in the technology radar are raised by the different teams and therefore a lot of the items are related to the work and challenges the teams face in the different projects. In fact, we don't include anything on the radar that we haven't tried ourselves at least once.",
+          "The items in the technology radar are raised by the different contributors and therefore a lot of the items are related to the work and challenges the contributors face in the different projects. In fact, we don't include anything on the radar that we haven't tried ourselves at least once.",
           "There have been a lot of valuable discussions in different expert groups about the classification and details of each of technologies and innovations. And the result of all this can be found in the latest technology radar."
         ]
       },
@@ -70,9 +70,10 @@
       }
     ],
     "sourcecodeLink": {
-      "href": "https://github.com/medic/tech-radar",
+      "href": "https://github.com/medic/cht-tech-radar-implementers",
       "name": "CHT Technology Radar for Implementers on GitHub",
       "description": "Contributions and source code of the CHT Technology Radar for Implementers are on GitHub. Inspired by AOE Tech Radar."
-    }
+    },
+    "legalInformationLink": "https://docs.google.com/document/d/1MaI1rgYMNyCZF2eEjBuvnBDoCYHDKlx4k_N5pkDiWu8/edit#heading=h.9sdb6g11dv40"
   }
 }
