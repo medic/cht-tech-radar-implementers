@@ -18,29 +18,29 @@
       "colour": "#278489",
       "txtColour": "#444444",
       "position": 1,
-      "description": "These include development languages, as well as more low-level development frameworks, which are useful for implementing custom software of all kinds."
+      "description": "These include tools used for building apps on top of the CHT Core Framework."
     },
     "methods-and-patterns": {
       "colour": "#535EAA",
       "txtColour": "white",
       "position": 2,
-      "description": "These include elements of a software development process, such as experience design; and ways of structuring software, such as microservices."
+      "description": "These include tools meant for data use, such as data processing, analytics and data visualization."
     },
     "platforms-and-aoe-services": {
       "colour": "#D74A39",
       "txtColour": "#444444",
       "position": 3,
-      "description": "Things that we build software on top of such as mobile technologies like Android, virtual platforms like the JVM, or generic kinds of platforms like hybrid clouds."
+      "description": "These include tools used for handling CHT deployments."
     },
     "tools": {
       "colour": "#E4AE1D",
       "txtColour": "white",
       "position": 4,
-      "description": "These can be components, such as databases, software development tools, such as versions control systems; or more generic categories of tools, such as the notion of polyglot persistence."
+      "description": "These include tools main CHT App Features, such as purging, tasks, targets, etc."
     }
   },
   "editLink": {
-    "radarLink": "https://github.com/medic/tech-radar/tree/main/radar",
+    "radarLink": "https://github.com/medic/cht-tech-radar-implementers/tree/main/radar",
     "title": "Edit"
   },
   "chartConfig": {
