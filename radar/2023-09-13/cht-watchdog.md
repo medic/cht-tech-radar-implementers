@@ -1,6 +1,6 @@
 ---
 title:      "cht-watchdog"
-ring:       trial
+ring:       adopt
 quadrant:   platforms-and-aoe-services
 tags:       [deployment-management, monitoring, alerting]
 ---
