@@ -17,7 +17,13 @@
       {
         "headline": "What is the Technology Radar",
         "values": [
-          "The Tech Radar is an overview of different technologies - from Data Use, App Building, Deployment Management to CHT App Features - that we consider \"new or mentionable\". The radar therefore doesn't provide an overview of all established technologies - but it focuses on items that have recently gained in importance or changed. Items that have been on the radar in previous versions are not listed on the homepage, but they are still available in the complete overview and in the search."
+          "The CHT Technology Radar for Implementers provides a view of all CHT-related tools and components so that CHT implementers can decide which to use when designing, developing, and hosting their CHT applications."
+        ]
+      },
+      {
+        "headline": "Audience",
+        "values": [
+          "Implementers and App Developers"
         ]
       },
       {
@@ -40,33 +46,33 @@
     "quadrants": [
       {
         "name": "App Building",
-        "description": "These include development languages, as well as more low-level development frameworks, which are useful for implementing custom software of all kinds."
+        "description": "These are the components used for building CHT apps, like CHT Conf, and form preview/builder tools like XLSForm or any future GUI form builder versions."
       },
       {
         "name": "CHT App Features",
-        "description": "These can be components, such as databases, software development tools, such as versions control systems; or more generic categories of tools, such as the notion of polyglot persistence."
+        "description": "Aspects of CHT Core Framework that can be used in CHT Apps. These could include new CHT form widgets, updated UI elements like the floating action button, and user management features."
       },
       {
         "name": "Data Use",
-        "description": "These include elements of a software development process, such as experience design; and ways of structuring software, such as microservices."
+        "description": "These include tools and components used to manage data that comes in or out of the CHT. This includes integrations and interoperability standards and methods, as well as ETL, Pipeline, and querying methods. Also included in this quadrant are visualization tools for dashboards."
       },
       {
         "name": "Deployment Management",
-        "description": "Things that we build software on top of such as mobile technologies like Android, virtual platforms like the JVM, or generic kinds of platforms like hybrid clouds."
+        "description": "Deploying and maintaining CHT instances takes considerable coordination, especially for large scale deployments. This quadrant includes key aspects for hosting, including tools and methods for alerts and monitoring as well."
       }
     ],
     "rings": [
       {
         "name": "Adopt",
-        "description": "The Adopt ring represents blips that we think you should seriously consider using. We don't say that you should use these for every project; any tool should only be used in an appropriate context. However we do think that a blip in the Adopt ring represents something where there's no doubt that it's proven and mature for use."
+        "description": "The Adopt ring represents tools that we think you should seriously consider using. We don't say that you should use these for every project; any tool should only be used in an appropriate context. However we do think that a blip in the Adopt ring represents something where there's no doubt that it's proven and mature for use."
       },
       {
         "name": "Trial",
-        "description": "The Trial ring is for blips that we think are ready for use, but not as completely proven as those in the Adopt ring. So for most organizations we think you should use these on a trial basis, to decide whether they should be part of your toolkit. Typically we've used trial blips in production, but we realize that readers are more cautious than us."
+        "description": "The Trial ring is for tools that are ready for use, but not as completely proven as those in the Adopt ring. So for most organizations we think you should use these on a trial basis, to decide whether they should be part of your toolkit. Others may already be using these blips in production, likely as early adopters of the tools."
       },
       {
         "name": "Stop",
-        "description": "The Stop (or Not Recommended) ring is for things that, even though they are accepted in the industry, we haven't had a good experience with. Therefore we are calling them out to warn you that you may run into trouble with them as well. Sometimes it means we think they're irredeemably flawed, or just being misused. We do place things in the Stop ring that we wish the industry wouldn't use."
+        "description": "The Stop (or Not Recommended) ring is for things that we think implementers should hold off from using, or look for ways to move off of. We place things in the Stop ring that we wish the CHT Community wouldn’t use anymore."
       }
     ],
     "sourcecodeLink": {
