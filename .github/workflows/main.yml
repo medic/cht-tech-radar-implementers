@@ -44,6 +44,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages - Main branch only
+        if: ${{ github.ref == 'refs/heads/main' }}
         run:
           npm run deploy
