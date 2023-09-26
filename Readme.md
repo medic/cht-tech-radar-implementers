@@ -63,7 +63,7 @@ you will need to update the technologies .md files accordingly.
 
 The text on the "How to use the CHT Technology Radar for Implementers" page can be uopdated in the `public/messages.json` file.
 
-## Customize the radar
+### Customize the radar
 > Further instructions on how to customize the Technical Radar can be found in the [AOEpeople/aoe_technology_radar](https://github.com/AOEpeople/aoe_technology_radar) repository.
 
 ## Development

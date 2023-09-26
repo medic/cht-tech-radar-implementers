@@ -15,7 +15,7 @@
   "homepageContent": "both",
   "quadrantsMap": {
     "languages-and-frameworks": {
-      "colour": "#278489",
+      "colour": "#7092F5",
       "txtColour": "#444444",
       "position": 1,
       "description": "These are the components used for building CHT apps, like CHT Conf, and form preview/builder tools like XLSForm or any future GUI form builder versions."
@@ -27,13 +27,13 @@
       "description": "These include tools and components used to manage data that comes in or out of the CHT. This includes integrations and interoperability standards and methods, as well as ETL, Pipeline, and querying methods. Also included in this quadrant are visualization tools for dashboards."
     },
     "platforms-and-aoe-services": {
-      "colour": "#D74A39",
+      "colour": "#436D84",
       "txtColour": "#444444",
       "position": 3,
       "description": "Deploying and maintaining CHT instances takes considerable coordination, especially for large scale deployments. This quadrant includes key aspects for hosting, including tools and methods for alerts and monitoring as well."
     },
     "tools": {
-      "colour": "#E4AE1D",
+      "colour": "#278489",
       "txtColour": "white",
       "position": 4,
       "description": "Aspects of CHT Core Framework that can be used in CHT Apps. These could include new CHT form widgets, updated UI elements like the floating action button, and user management features."
