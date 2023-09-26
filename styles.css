@@ -13,3 +13,10 @@
    --color-red: #D74A39!important;
    --color-brand: #38464D!important;
 }
+
+.branding__logo img {
+  max-width:280px;
+  max-height:160px;
+  width: auto;
+  height: auto;
+}
