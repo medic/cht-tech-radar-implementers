@@ -29,7 +29,7 @@ Following front-matter attributes are possible:
 - **title**: Name of the Item
 - **quadrant**: Quadrant. One of `languages-and-frameworks` (for `App Building` quadrant),
   `methods-and-patterns` (for `Data Use` quadrant), `platforms-and-aoe-services`
-- (for `Deployment Management` quadrant), `tools` (for `CHT App Features` quadrant)
+(for `Deployment Management` quadrant), `tools` (for `CHT App Features` quadrant)
 - **ring**: Ring section in radar. One of `trial`, `adopt`, `stop`
 - **info**: (optional) A short textual description of the item (visible in
   overview pages)
