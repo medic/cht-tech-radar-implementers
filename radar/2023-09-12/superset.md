@@ -5,6 +5,8 @@ quadrant:   methods-and-patterns
 tags:       [data-use]
 ---
 
-Superset is an open source option for building dashboards.
+[Superset](https://superset.apache.org/) is an open-source data exploration and visualization platform.
 
-From Wikipedia article: Apache Superset is an open-source software application for data exploration and data visualization able to handle data at petabyte scale.
+In the context of the CHT, Superset is used for health care analytics.
+
+Read more about Data Flows for Analytics with the CHT in the [CHT documentation](https://docs.communityhealthtoolkit.org/core/overview/data-flows-for-analytics/).

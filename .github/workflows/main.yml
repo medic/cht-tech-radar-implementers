@@ -1,7 +1,6 @@
 name: Build the CHT Technology Radar for Implementers
 
 on:
-  pull_request:
   push:
     branches:
       - main

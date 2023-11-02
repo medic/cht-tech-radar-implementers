@@ -5,4 +5,4 @@ quadrant:   platforms-and-aoe-services
 tags:       [deployment-management]
 ---
 
-Lighter version of Kubernetes for orchestration.
+k3d is a lightweight version of Kubernetes for orchestration.
