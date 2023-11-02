@@ -5,4 +5,6 @@ quadrant:   languages-and-frameworks
 tags:       [app-building]
 ---
 
-Helper for Docker.
+Docker Helper eases starting a first CHT instance with a simple text based GUI which works on Windows (WSL2), macOS (both x86 and Apple Silicon) and Linux.
+
+Read more about the Docker Helper for CHT 4.x in the [CHT documentation](https://docs.communityhealthtoolkit.org/apps/guides/hosting/4.x/app-developer/#cht-docker-helper-for-4x).
