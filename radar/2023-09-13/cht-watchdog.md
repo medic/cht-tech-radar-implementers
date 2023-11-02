@@ -1,8 +1,10 @@
 ---
-title:      "cht-watchdog"
+title:      "CHT Watchdog"
 ring:       adopt
 quadrant:   platforms-and-aoe-services
 tags:       [deployment-management, monitoring, alerting]
 ---
 
-A monitoring and alerting stack for the CHT built on Prometheus and Grafana. Prometheus records real-time metrics from your CHT instance and stores them in a time series database. Grafana allows you to visualize the metrics in configurable dashboards and sends alerts when metrics exceed a threshold.
+[CHT Watchdog](https://github.com/medic/cht-watchdog) is the recommended monitoring and alerting solution to be used with the CHT.
+
+Read more about the CHT Watchdog in the [CHT documentation](https://docs.communityhealthtoolkit.org/core/overview/watchdog/).
