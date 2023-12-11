@@ -1,5 +1,7 @@
 {
   "footerFootnote": "The Community Health Toolkit (CHT) is a project by a group of leading organizations who have come together to support the development of digital health initiatives in the hardest-to-reach areas. It provides a collection of open source technologies and open access design, technical, and implementer resources that help you build and deploy digital tools for community health. Together, we envision a world where healthcare is of the highest attainable quality, equitable, accessible, and delivered by people who are trusted in their communities.  ",
+  "legalInformationLabel": "Legal Information",
+  "legalInformationLink": "https://docs.google.com/document/d/1MaI1rgYMNyCZF2eEjBuvnBDoCYHDKlx4k_N5pkDiWu8/edit#heading=h.9sdb6g11dv40",
   "socialLinks": [
     { "href": "https://forum.communityhealthtoolkit.org/", "iconName": "todo" },
     { "href": "https://github.com/medic", "iconName": "github" }
@@ -79,7 +81,6 @@
       "href": "https://github.com/medic/cht-tech-radar-implementers",
       "name": "CHT Technology Radar for Implementers on GitHub",
       "description": "Contributions and source code of the CHT Technology Radar for Implementers are on GitHub. Inspired by AOE Tech Radar."
-    },
-    "legalInformationLink": "https://docs.google.com/document/d/1MaI1rgYMNyCZF2eEjBuvnBDoCYHDKlx4k_N5pkDiWu8/edit#heading=h.9sdb6g11dv40"
+    }
   }
 }
