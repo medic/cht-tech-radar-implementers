@@ -4,6 +4,8 @@ This is the location of CHT Technology Radar for Implementers content.
 
 If you are looking for the content of the CHT Technology Radar for Contributors, you can find it [here](https://github.com/medic/cht-tech-radar-contributors).
 
+This Tech Radar is built by using the [CHT Technology Radar Core](https://github.com/medic/cht-tech-radar-core).
+
 ## Contribute to the Technical Radar
 
 ### Create a new Technology Radar release
@@ -61,10 +63,10 @@ tags: [data, dashboards]
 You can update the rings and the quadrants in the `public/config.json` file. If you update the names of the rings and quadrants,
 you will need to update the technologies .md files accordingly. 
 
-The text on the "How to use the CHT Technology Radar for Implementers" page can be uopdated in the `public/messages.json` file.
+The text on the "How to use the CHT Technology Radar for Implementers" page can be updated in the `public/messages.json` file.
 
 ### Customize the radar
-> Further instructions on how to customize the Technical Radar can be found in the [AOEpeople/aoe_technology_radar](https://github.com/AOEpeople/aoe_technology_radar) repository.
+> Further instructions on how to customize the Technical Radar can be found in the [medic/cht-tech-radar-core](https://github.com/medic/cht-tech-radar-core) repository.
 
 ## Development
 
@@ -118,4 +120,4 @@ npm run deploy
 
 # Note
 The CHT Tech Radars are built starting from the [AOE Tech Radar content](https://www.aoe.com/techradar/index.html).
-If you want to build your own Tech Radar you may want to have a look at [AOE Tech Radar GitHub repository](https://github.com/AOEpeople/aoe_technology_radar).
+If you want to build your own Tech Radar you may want to have a look at the [AOE Tech Radar GitHub repository](https://github.com/AOEpeople/aoe_technology_radar).
