@@ -4,11 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "npx aoe_technology_radar-buildRadar",
+    "build": "npx cht_technology_radar-buildRadar",
     "postbuild": "npm run generateJson",
     "prebuild:static": "npm run build",
-    "build:static": "npx aoe_technology_radar-createStaticFiles",
-    "generateJson": "npx aoe_technology_radar-generateJson",
+    "build:static": "npx cht_technology_radar-createStaticFiles",
+    "generateJson": "npx cht_technology_radar-generateJson",
     "prestart": "npm run build:static",
     "start": "npm run start:server",
     "prestart:static": "npm run build:static",
@@ -17,7 +17,7 @@
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
-    "aoe_technology_radar": "3.6.0"
+    "cht_technology_radar": "github:medic/cht-tech-radar-core#main"
   },
   "overrides": {
     "@svgr/webpack": "6.5.1"
