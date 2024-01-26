@@ -78,7 +78,7 @@ The default is `/`.
 
 ### Build the radar
 ```
-npm i
+npm install
 PUBLIC_URL=/build REACT_APP_RADAR_NAME="CHT Technology Radar for Implementers" npm run start
 ```
 
@@ -86,7 +86,7 @@ Then open the Tech Radar here: http://localhost:8080/build
 
 ### Build the radar with static files
 ```
-npm i
+npm install
 PUBLIC_URL=/build REACT_APP_RADAR_NAME="CHT Technology Radar for Implementers" npm run start:static
 ```
 
