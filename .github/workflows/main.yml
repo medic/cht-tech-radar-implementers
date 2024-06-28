@@ -21,8 +21,11 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -32,6 +35,7 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' }}
 
       - run: npm i
       - run: PUBLIC_URL=/cht-tech-radar-implementers REACT_APP_RADAR_NAME="CHT Technology Radar for Implementers" npm run build:static
@@ -44,4 +48,3 @@ jobs:
           git config --global user.name $NAME
           git remote set-url origin https://$NAME:${{ secrets.GH_SECRET }}@github.com/medic/cht-tech-radar-implementers.git
           npm run deploy
-
