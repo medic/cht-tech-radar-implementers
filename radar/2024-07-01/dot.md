@@ -1,5 +1,5 @@
 ---
-title:      "DOT"
+title:      "Data Observation Toolkit (DOT)"
 ring:       trial
 quadrant:   methods-and-patterns
 tags:       [data]
