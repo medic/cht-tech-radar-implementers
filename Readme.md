@@ -100,12 +100,7 @@ npm run generateJson
 You can do this while the server is running.
 You can find the newly created rd.json in `/build/rd.json`.
 
-## Deployment to GitHub Pages
-At the moment, the automatic deployment to GitHub Pages via GitHub Actions upon merge to the `main` branch doesn't work. We are trying to find
-a solution to this problem via [this ticket](https://github.com/medic/cht-tech-radar-contributors/issues/3).
-
-Until the automatic deployment is solved, please follow the steps below to deploy the latest changes to GitHub Pages.
-
+## Deployment to GitHub Pages from local
 First, ensure that you are performing the next steps on the `main` branch.
 
 ### Generate the radar with static files
