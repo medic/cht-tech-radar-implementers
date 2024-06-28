@@ -45,5 +45,13 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages - Main branch only
         if: ${{ github.ref == 'refs/heads/main' }}
-        run:
+      - name: Deploy to GitHub Pages
+        env:
+          EMAIL: medic-ci@github
+          NAME: medic-ci
+        run: |
+          git config --global user.email $EMAIL
+          git config --global user.name $NAME
+          git remote set-url origin https://$NAME:${{ secrets.GH_SECRET }}@github.com/medic/cht-tech-radar-implementers.git
           npm run deploy
+
