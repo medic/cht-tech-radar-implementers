@@ -17,7 +17,7 @@
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
-    "cht_technology_radar": "github:medic/cht-tech-radar-core#1.0.1"
+    "cht_technology_radar": "github:medic/cht-tech-radar-core#v4.4.0"
   },
   "overrides": {
     "@svgr/webpack": "6.5.1"
