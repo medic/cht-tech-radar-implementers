@@ -9,4 +9,4 @@ tags:       [data-use]
 
 In the context of the CHT, Superset is used for health care analytics.
 
-Read more about Data Flows for Analytics with the CHT in the [CHT documentation](https://docs.communityhealthtoolkit.org/core/overview/data-flows-for-analytics/).
+Read more about using Superset with the data pipeline in the [CHT documentation](https://docs.communityhealthtoolkit.org/apps/guides/data/analytics/setup/#setup-superset).
