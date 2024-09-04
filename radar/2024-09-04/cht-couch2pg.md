@@ -5,4 +5,4 @@ quadrant:   methods-and-patterns
 tags:       [data-use]
 ---
 
-CHT chouch2pg is deprecated. For data synchronization, refer to [CHT Sync documentation](https://docs.communityhealthtoolkit.org/core/overview/cht-sync/).
+CHT couch2pg is deprecated. For data synchronization, refer to [CHT Sync documentation](https://docs.communityhealthtoolkit.org/core/overview/cht-sync/).
