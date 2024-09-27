@@ -5,13 +5,9 @@
   "license": "MIT",
   "scripts": {
     "build": "techradar build",
-    "serve": "techradar serve",
-    "deploy": "gh-pages -d build"
+    "serve": "techradar serve"
   },
   "dependencies": {
     "cht_technology_radar": "github:medic/cht-tech-radar-core#1.2.0"
-  },
-  "devDependencies": {
-    "gh-pages": "^6.1.1"
   }
 }
