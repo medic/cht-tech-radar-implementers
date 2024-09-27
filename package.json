@@ -1,38 +1,15 @@
 {
   "name": "cht-tech-radar-implementers",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "npx cht_technology_radar-buildRadar",
-    "postbuild": "npm run generateJson",
-    "prebuild:static": "npm run build",
-    "build:static": "npx cht_technology_radar-createStaticFiles",
-    "generateJson": "npx cht_technology_radar-generateJson",
-    "prestart": "npm run build:static",
-    "start": "npm run start:server",
-    "prestart:static": "npm run build:static",
-    "start:static": "npm run start:server",
-    "start:server": "python3 -m http.server 8080",
+    "build": "techradar build",
+    "serve": "techradar serve",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
-    "cht_technology_radar": "github:medic/cht-tech-radar-core#1.0.1"
-  },
-  "overrides": {
-    "@svgr/webpack": "6.5.1"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "cht_technology_radar": "github:medic/cht-tech-radar-core#1.2.0"
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"

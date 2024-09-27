@@ -21,30 +21,40 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js ⚙️ - Cache dependencies ⚡ - Install dependencies 🔧
+        uses: ./.github/workflows/setup-node
+
+      - name: Setup Pages ⚙️
+        id: pages
+        uses: actions/configure-pages@v4
+        if: ${{ github.ref == 'refs/heads/main' }}
+        with:
+          static_site_generator: next
+
+      - name: Build with Next.js 🏗️
+        run: npm run build
+
+      - name: Upload artifact 📡
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./build
+
+  deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    needs: build
+
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: "lts/*"
-
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v3
-        if: ${{ github.ref == 'refs/heads/main' }}
-
-      - run: npm i
-      - run: PUBLIC_URL=/cht-tech-radar-implementers REACT_APP_RADAR_NAME="CHT Technology Radar for Implementers" npm run build:static
-      - name: Deploy to GitHub Pages
-        env:
-          EMAIL: medic-ci@github
-          NAME: medic-ci
-        run: |
-          git config --global user.email $EMAIL
-          git config --global user.name $NAME
-          git remote set-url origin https://$NAME:${{ secrets.GH_SECRET }}@github.com/medic/cht-tech-radar-implementers.git
-          npm run deploy
+      - name: Publish to GitHub Pages 🚀
+        id: deployment
+        uses: actions/deploy-pages@v4

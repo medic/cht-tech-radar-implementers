@@ -1,0 +1,112 @@
+{
+    "basePath": "/cht-tech-radar-implementers",
+    "baseUrl": "https://docs.communityhealthtoolkit.org/cht-tech-radar-implementers",
+    "editUrl": "https://github.dev/medic/cht-tech-radar-implementers/blob/main/radar/{release}/{id}.md",
+    "colors": {
+      "foreground": "#E5E8E9",
+      "background": "#38464D",
+      "highlight": "#F58300",
+      "content": "#E5E8E9",
+      "text": "#575757",
+      "link": "#F58300",
+      "border": "rgba(255, 255, 255, 0.1)",
+      "tag": "rgba(255, 255, 255, 0.1)"
+    },
+    "quadrants": [
+      {
+        "id": "languages-and-frameworks",
+        "title": "App Building",
+        "description": "These components help build CHT apps, like CHT Conf, and form preview/builder tools like XLSForm.",
+        "color": "#7092F5"
+      },
+      {
+        "id": "methods-and-patterns",
+        "title": "Data Use",
+        "description": "This includes tools and components used to manage data that comes in or out of the CHT. It also includes integrations, interoperability standards and methods, ETL, Pipeline, and querying techniques. Additionally, this quadrant contains visualization tools for dashboards.",
+        "color": "#535EAA"
+      },
+      {
+        "id": "platforms-and-aoe-services",
+        "title": "Deployment Management",
+        "description": "Deploying and maintaining CHT instances takes considerable coordination, especially for large-scale deployments. This quadrant also includes key aspects for hosting, including tools and methods for alerts and monitoring.",
+        "color": "#436D84"
+      },
+      {
+        "id": "tools",
+        "title": "CHT App Features",
+        "description": "Aspects of CHT Core Framework that can be used in CHT Apps. These could include new CHT form widgets, updated UI elements like the floating action button, and user management features.",
+        "color": "#278489"
+      }
+    ],
+    "rings": [
+      {
+        "id": "adopt",
+        "title": "Adopt",
+        "description": "The Adopt ring represents tools that you should seriously consider using. We don't say you should use these for every project; one should only use a tool in an appropriate context. However, an item in the Adopt ring represents something where there's no doubt it's proven and mature for use with the CHT.",
+        "color": "#4A9940",
+        "radius": 0.5,
+        "strokeWidth": 5
+      },
+      {
+        "id": "trial",
+        "title": "Trial",
+        "description": "The Trial ring is for tools ready for use but only partially proven as those in the Adopt ring. You should use these on a trial basis to decide whether they should be part of your toolkit. Others may already be using these items in production, likely as early adopters of the tools.",
+        "color": "#E4AE1D",
+        "radius": 0.69,
+        "strokeWidth": 3
+      },
+      {
+        "id": "stop",
+        "title": "Stop",
+        "description": "The Stop (or Not Recommended) ring is for things we think implementers should avoid using or look for ways to move off of. These include items for which a better alternative is available, or where the item is found to not work correctly with the CHT.",
+        "color": "#E35726",
+        "radius": 1,
+        "strokeWidth": 0.75
+      }
+    ],
+    "flags": {
+      "new": {
+        "color": "#D74A39",
+        "title": "New",
+        "titleShort": "N",
+        "description": "New in this version"
+      },
+      "changed": {
+        "color": "#535EAA",
+        "title": "Changed",
+        "titleShort": "C",
+        "description": "Recently changed"
+      },
+      "default": {
+        "description": "Unchanged"
+      }
+    },
+    "chart": {
+      "size": 800,
+      "blipSize": 12
+    },
+    "social": [
+      {
+        "href": "https://github.com/medic",
+        "icon": "github"
+      }
+    ],
+    "imprint": "https://docs.google.com/document/d/1MaI1rgYMNyCZF2eEjBuvnBDoCYHDKlx4k_N5pkDiWu8/edit#heading=h.9sdb6g11dv40",
+    "labels": {
+      "title": "CHT Technology Radar for Implementers",
+      "imprint": "Legal Information",
+      "quadrant": "Quadrant",
+      "quadrantOverview": "Quadrant Overview",
+      "zoomIn": "Zoom in",
+      "filterByTag": "Filter by Tag",
+      "footer": "The Community Health Toolkit (CHT) is a project by a group of leading organizations who have come together to support the development of digital health initiatives in the hardest-to-reach areas. It provides a collection of open source technologies and open access design, technical, and implementer resources that help you build and deploy digital tools for community health. Together, we envision a world where healthcare is of the highest attainable quality, equitable, accessible, and delivered by people who are trusted in their communities.",
+      "notUpdated": "This item was not updated in last three versions of the Radar. Should it have appeared in one of the more recent editions, there is a good chance it remains pertinent. However, if the item dates back further, its relevance may have diminished and our current evaluation could vary. Regrettably, our capacity to consistently revisit items from past Radar editions is limited.",
+      "notFound": "404 - Page not found",
+      "pageAbout": "How to use the CHT Technology Radar for Implementers?",
+      "pageOverview": "Technologies Overview",
+      "pageSearch": "Search",
+      "searchPlaceholder": "What are you looking for?",
+      "metaDescription": "Stay at the forefront of software and trends with the CHT Technology Radar for Implementers. Explore insights on CHT App Features, Data Use, Deployment Management, and CHT App Building."
+    }
+  }
+  
