@@ -1,6 +1,6 @@
 ---
 title:      "CHT User Management Tool"
-ring:       trial
+ring:       adopt
 quadrant:   languages-and-frameworks
 tags:       [app-building]
 ---

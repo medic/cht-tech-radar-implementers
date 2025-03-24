@@ -1,6 +1,6 @@
 ---
 title:      "cht-conf-test-harness"
-ring:       trial
+ring:       adopt
 quadrant:   languages-and-frameworks
 tags:       [app-building]
 ---
