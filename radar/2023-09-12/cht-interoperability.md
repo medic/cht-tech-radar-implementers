@@ -5,7 +5,6 @@ quadrant:   methods-and-patterns
 tags:       [data-use]
 ---
 
-[CHT Interoperability](https://github.com/medic/cht-interoperability) implements a Loss to Follow Up (LTFU) workflow for CHIS based on OpenHIE LTFU Guide. 
-A first version of the project can be found in the [chis-interoperability repository](https://github.com/medic/chis-interoperability).
+[CHT Interoperability](https://github.com/medic/cht-interoperability) implements interoperability between the CHT and other health information systems based on [OpenHIE](https://ohie.org/) architecture and [HL7 FHIR](https://www.hl7.org/fhir/index.html) messaging format.
 
-Read more about CHT Interoperability in the [CHT documentation](https://docs.communityhealthtoolkit.org/apps/concepts/interoperability/).
+Read more about CHT Interoperability in the [CHT documentation](https://docs.communityhealthtoolkit.org/building/interoperability/).
