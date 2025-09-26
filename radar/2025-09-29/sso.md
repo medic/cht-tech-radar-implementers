@@ -1,6 +1,6 @@
 ---
 title:      "Single Sign-On (SSO)"
-ring:       trial
+ring:       adopt
 quadrant:   tools
 tags:       [integration, authentication]
 ---
