@@ -2,7 +2,7 @@
 title:      "TurboSIM"
 ring:       stop
 quadrant:   tools
-tags:       [cht-app-features]
+tags:       [features]
 ---
 
 TurboSIM is SIM Application Toolkit (STK) based tool for menu-driven point-of-care and data collection workflows on feature phones. 

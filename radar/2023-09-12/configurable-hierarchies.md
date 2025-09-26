@@ -2,7 +2,7 @@
 title:      "Configurable Hierarchies"
 ring:       adopt
 quadrant:   tools
-tags:       [cht-app-features]
+tags:       [features]
 ---
 
 The configurable hierarchies help organizing people and places, and their relationship to one-another. The CHT Core Framework requires a hierarchy to organize the information in the app. 

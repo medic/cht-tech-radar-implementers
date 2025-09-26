@@ -2,7 +2,7 @@
 title:      "Custom Integration"
 ring:       adopt
 quadrant:   tools
-tags:       [cht-app-features]
+tags:       [features]
 ---
 
 Custom Integration is the capability to integrate with any system using RESTful APIs. 
