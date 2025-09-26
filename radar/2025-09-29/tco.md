@@ -1,7 +1,7 @@
 ---
 title:      "Hosting TCO Calculator"
 ring:       trial
-quadrant:   tools
+quadrant:   platforms-and-aoe-services
 tags:       [hosting]
 ---
 
