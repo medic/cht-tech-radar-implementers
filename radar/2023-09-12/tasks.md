@@ -2,7 +2,7 @@
 title:      "Tasks"
 ring:       adopt
 quadrant:   tools
-tags:       [cht-app-features]
+tags:       [features]
 ---
 
 Tasks ensure that the right actions are taken for the right people at the right time. Tasks help CHWs plan their day by prompting them to complete follow-up visits and other activities. 

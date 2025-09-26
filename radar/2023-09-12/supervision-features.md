@@ -2,7 +2,7 @@
 title:      "Supervision Features"
 ring:       adopt
 quadrant:   tools
-tags:       [cht-app-features]
+tags:       [features]
 ---
 
 Supervision and workforce management are important aspects to building and maintaining high-performing community health systems. 

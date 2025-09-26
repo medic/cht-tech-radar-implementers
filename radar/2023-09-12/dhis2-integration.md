@@ -2,7 +2,7 @@
 title:      "DHIS2 Integration"
 ring:       adopt
 quadrant:   tools
-tags:       [cht-app-features]
+tags:       [features]
 ---
 
 The CHT Core Framework supports integrations with DHIS2 in a variety of ways, such as sending aggregate, patient and event data to DHIS2.

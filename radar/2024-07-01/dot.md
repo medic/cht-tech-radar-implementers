@@ -2,7 +2,7 @@
 title:      "Data Observation Toolkit (DOT)"
 ring:       trial
 quadrant:   methods-and-patterns
-tags:       [data-use]
+tags:       [data]
 ---
 
 [Data Observation Toolkit (DOT)](https://github.com/datakind/Data-Observation-Toolkit) can be used to monitor data in order to flag problems with data integrity and scenarios that might need attention. 

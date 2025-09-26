@@ -2,7 +2,7 @@
 title:      "UHC Mode"
 ring:       adopt
 quadrant:   tools
-tags:       [cht-app-features]
+tags:       [features]
 ---
 
 The CHT’s UHC Mode empowers CHWs to provide equitable and timely care to families in their catchment area. 
