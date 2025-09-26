@@ -2,7 +2,7 @@
 title:      "Superset"
 ring:       adopt
 quadrant:   methods-and-patterns
-tags:       [data-use]
+tags:       [data]
 ---
 
 [Superset](https://superset.apache.org/) is an open-source data exploration and visualization platform.

@@ -2,7 +2,7 @@
 title:      "Klipfolio"
 ring:       stop
 quadrant:   methods-and-patterns
-tags:       [data-use]
+tags:       [data]
 ---
 
 We recommend using [Superset](https://superset.apache.org/) for building dashboards with the CHT, as it is an open-source tool.

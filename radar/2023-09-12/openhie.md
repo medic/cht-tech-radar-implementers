@@ -2,7 +2,7 @@
 title:      "OpenHIE"
 ring:       trial
 quadrant:   methods-and-patterns
-tags:       [data-use]
+tags:       [data]
 ---
 
 [OpenHIE](https://ohie.org/) is a community of practice that also provides an architecture and specification for interoperability for the digital health ecosystem. 

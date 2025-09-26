@@ -2,7 +2,7 @@
 title:      "CHT Sync"
 ring:       adopt
 quadrant:   methods-and-patterns
-tags:       [data-use]
+tags:       [data]
 ---
 
 [CHT Sync](https://github.com/medic/cht-sync) is a integrated solution designed to enable data synchronization between CouchDB and PostgreSQL for the purpose of analytics. The synchronization occurs near real-time, ensuring that the data displayed on dashboards is up-to-date. It combines several technologies to achieve this synchronization and provides an efficient workflow for data processing and visualization.
