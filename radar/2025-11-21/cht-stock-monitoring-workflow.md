@@ -1,7 +1,7 @@
 ---
 title:      "cht-stock-monitoring-workflow"
 ring:       adopt
-quadrant:   languages-and-frameworks
+quadrant:   tools
 tags:       [app-building]
 ---
 
