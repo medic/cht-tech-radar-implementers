@@ -1,6 +1,6 @@
 ---
 title:      "cht-stock-monitoring-workflow"
-ring:       trial
+ring:       adopt
 quadrant:   languages-and-frameworks
 tags:       [app-building]
 ---
