@@ -49,7 +49,7 @@ You can integrate images in your markdown. Put the image files in your public fo
 ![an image](/images/an-image.png)
 ```
 
-### Content Guidelines
+### Content guidelines
 You can update the rings and the quadrants in the `config.json` file. If you update the names of the rings and quadrants,
 you will need to update the technologies .md files accordingly.
 
@@ -82,6 +82,6 @@ npm ci
 npm run build
 ```
 
-## Note
-The CHT Technology Radars are built starting from the [AOE Tech Radar content](https://www.aoe.com/techradar/index.html).
+> [!NOTE]
+> The CHT Technology Radars are built starting from the [AOE Tech Radar content](https://www.aoe.com/techradar/index.html).
 If you want to build your own Technical Radar you may want to have a look at the [AOE Tech Radar GitHub repository](https://github.com/AOEpeople/aoe_technology_radar).
