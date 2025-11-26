@@ -1,7 +1,7 @@
 # CHT Technology Radar for Implementers
-This is the repository of the CHT Technology Radar for Implementers content.
+This is the repository of the [CHT Technology Radar for Implementers](https://docs.communityhealthtoolkit.org/cht-tech-radar-implementers/) content.
 
-If you are looking for the content of the CHT Technology Radar for Contributors, you can find it [in its dedicated GitHub repository](https://github.com/medic/cht-tech-radar-contributors). 
+If you are looking for the content of the [CHT Technology Radar for Contributors](https://docs.communityhealthtoolkit.org/cht-tech-radar-contributors/), you can find it [in its dedicated GitHub repository](https://github.com/medic/cht-tech-radar-contributors). 
 
 This Tech Radar is built by using the [CHT Technology Radar Core](https://github.com/medic/cht-tech-radar-core), which contains the skeleton app and the CHT look-and-feel styles. 
 
